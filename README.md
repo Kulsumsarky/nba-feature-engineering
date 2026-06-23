@@ -52,3 +52,7 @@ pip install pandas numpy matplotlib seaborn
 ## Files
 - nba_feature_engineering.ipynb - Main notebook
 - nba_data.csv - Dataset
+- ### Step 7: Feature Scaling
+- Applied StandardScaler to all features
+- All features now have mean=0 and std=1
+- Ensures distance-based models treat all features equally
